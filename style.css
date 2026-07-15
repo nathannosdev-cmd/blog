@@ -1,0 +1,63 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.bg_black {
+  background-color: #000000;
+}
+.bg_blue {
+  background-color: #749bff;
+}
+.bg_white {
+  background-color: #ffffff;
+}
+
+.profile_photo {
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.txtW {
+  color: #ffffff;
+}
+.txtBl {
+  color: #000000;
+}
+.txtBlue {
+  color: #749bff;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.textBold {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.img_post {
+  height: 408px;
+  object-fit: cover;
+}
+
+.txt_user_name {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
