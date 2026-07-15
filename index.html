@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
-    <header class="bg_blue">
+    <header class="bg-blue">
       <div class="container">
         <img src="./Assets/Blog.svg" alt="logo blog" />
       </div>
     </header>
-    <main class="bg_white">
+    <main class="bg-white">
       <div class="container">
-        <div class="content">
-          <div class="img_container">
+        <article class="post">
+          <div class="image-container">
             <img
-              class="img_post"
+              class="post-image"
               src="./Assets/post.jpg"
-              alt="Imagem de um homem caminhando com calçada de fundo"
+              alt="Homem caminhando por uma calçada."
             />
           </div>
 
-          <p class="text txtBlue textBold">Noticias</p>
-          <h2 class="title">Título do Post</h2>
+          <p class="post-category">Notícias</p>
+
+          <h1 class="title">Título do Post</h1>
+
           <p class="txtBl text">
             <strong> Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
             elit. Suspendisse quam tellus, porta ac accumsan eget, lobortis at
@@ -39,18 +41,19 @@
             porttitor a.
           </p>
           <img
+            class="profile-photo"
             src="./Assets/profile_photo.jpg"
-            class="profile_photo"
-            alt="profile photo"
+            alt="Foto de Maria da Silva"
           />
-          <p class="txt_user_name">Maria da Silva</p>
-          <p>Jornalista</p>
-        </div>
+
+          <p class="author-name">Maria da Silva</p>
+          <p class="text">Jornalista</p>
+        </article>
       </div>
     </main>
-    <footer class="bg_black">
+    <footer class="bg-black">
       <div class="container">
-        <p class="txtW">Todos os direitos reservados</p>
+        <p class="text-white">Todos os direitos reservados</p>
       </div>
     </footer>
   </body>
