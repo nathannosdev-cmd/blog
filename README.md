@@ -43,10 +43,11 @@ cd seu-repositorio
 
 3. Abra o arquivo `index.html` diretamente no seu navegador de preferência.
 
-## Visualização
+## Visualização ou acesse: https://blog-psi-pied-34.vercel.app/
+
 
 <img width="2392" height="1946" alt="Example post" src="https://github.com/user-attachments/assets/82a25a37-6120-42aa-a987-e5d777917246" />
 
 ---
-
+## 
 Projeto desenvolvido para fins de estudo em desenvolvimento Front-end.
